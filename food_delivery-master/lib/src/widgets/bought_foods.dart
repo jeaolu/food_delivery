@@ -44,8 +44,8 @@ class _BoughtFoodsState extends State<BoughtFoods> {
             ),
           ),
           Positioned(
-            bottom: 10.0,
-            left: 10.0,
+            bottom: 8.0,
+            left: 8.0,
             right: 10.0,
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween  ,
@@ -99,9 +99,9 @@ class _BoughtFoodsState extends State<BoughtFoods> {
                 Column(
                   children: [
                     Text("${widget.price}",
-                      style: TextStyle(color: Colors.orangeAccent, fontSize: 18.0,fontWeight: FontWeight.bold)),
+                      style: TextStyle(color: Colors.orangeAccent, fontSize: 14.0,fontWeight: FontWeight.bold)),
                     Text("Min Order",
-                      style: TextStyle(color: Colors.grey)),
+                      style: TextStyle(color: Colors.black)),
                   ],
                 )
               ],
